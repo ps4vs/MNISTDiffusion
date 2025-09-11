@@ -56,6 +56,7 @@ def parse_args():
 
 def main(args):
     device="cpu" if args.cpu else "cuda"
+    print(device)
     train_dataloader,test_dataloader=create_mnist_dataloaders(batch_size=args.batch_size,image_size=28)
     model=MNISTDiffusion(timesteps=args.timesteps,
                 image_size=28,
