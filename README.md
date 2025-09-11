@@ -1,3 +1,6 @@
+1. Fork repo from https://github.com/bot66/MNISTDiffusion taken for quick experiementation.
+2. Learning from huggingface https://huggingface.co/learn/diffusion-course.
+
 # MNIST Diffusion
 ![60 epochs training from scratch](assets/demo.gif "60 epochs training from scratch")
 
